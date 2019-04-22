@@ -1,0 +1,8 @@
+export(analyzeCNV)
+export(checkFile)
+export(checkParam)
+import(GenomicRanges)
+import(data.table)
+import(gplots)
+import(plyr)
+import(tools)

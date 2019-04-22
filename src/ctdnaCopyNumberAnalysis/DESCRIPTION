@@ -1,0 +1,23 @@
+Package: ctdnaCopyNumberAnalysis
+Title: Performs RSU Copy Number Variation Analysis
+Version: 0.1.0
+Authors@R: person("Johnny", "Wu", email = "wu.johnny@roche.com", role = c("aut", "cre"))
+Description: The ctdnaCopyNumberAnalysis package analyzes copy number variation
+    using frequencies generated from the RSS V1 pipeline. The whitelist of genes to
+    be analyzed and the target region of the panel are required.
+Depends:
+    GenomicRanges,
+    R (>= 3.2.0)
+License: Closed
+LazyData: true
+Imports:
+    data.table,
+    digest,
+    dismo,
+    doMC,
+    ggplot2 (>= 2.0.0),
+    gplots,
+    plyr,
+    pROC,
+    tools
+RoxygenNote: 5.0.1

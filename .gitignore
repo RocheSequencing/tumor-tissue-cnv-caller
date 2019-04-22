@@ -1,0 +1,30 @@
+# History files
+.Rhistory
+.Rapp.history
+
+# Example code in package build process
+*-Ex.R
+
+# RStudio files
+.Rproj.user/
+*.Rproj
+
+# produced vignettes
+vignettes/*.html
+vignettes/*.pdf
+
+*.tar.gz
+testthat_results.txt
+/target/
+
+#Mac Files
+.DS_Store
+
+#Eclipse
+.project
+.settings/*
+
+*.iml
+.Rproj.user
+
+README.html
